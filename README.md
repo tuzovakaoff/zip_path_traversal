@@ -14,16 +14,12 @@ lrwxr-xr-x  3.0 unx       18 bx stor 18-Jun-14 13:26 path
 2 files, 18 bytes uncompressed, 18 bytes compressed:  0.0%
 ```
 #
-Second archive contains file with target directory `/tmp/` (which is not correct, according [zip format speciffication](https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT))
+Second archive contains file with target directory `/tmp/` (according [zip format speciffication ](https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT)this is not correct)
 
-  
-         4.4.17 file name: (Variable)
-         4.4.17.1 The name of the file, with optional relative path.
-         The path stored MUST not contain a drive or
+>4.4.17.1 The name of the file, with optional relative path.
+The path stored MUST not contain a drive or
          device letter, or a leading slash. 
-         
-        
-
+              
 
 ```bash
 $ zipinfo absolutepath.zip
