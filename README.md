@@ -1,6 +1,6 @@
 # Path  traversal with zip archive
 
-Two examples of zip files with that break the current directory and extract a file to the /tmp/
+Two examples of zip files that break the current directory and extract a file to the `/tmp/`
 
 
  First archive contains symlink `path` to `../../../../../tmp`
